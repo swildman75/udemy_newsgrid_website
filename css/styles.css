@@ -173,6 +173,10 @@ h6 {
   padding: 3rem;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 .list li {
   padding: 0.5rem 0;
   border-bottom: #555 dotted 1px;
@@ -296,6 +300,19 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* article page */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* footer */
